@@ -18,5 +18,17 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifact1-releases</name>
+        <url>http://vm1.com/artifactory/libs-example-artibuild</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifact1-snapshots</name>
+        <url>http://vm1.com/artifactory/libs-example-artisnap</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
